@@ -14,11 +14,16 @@
     'use strict';
 
     const CONFIG = {
-        standard: {
+        jmsdf: {
             model: "https://OC135.github.io/test6/SH60J30.glb",
             texture: "" // 元に戻す用のURL（空なら何もしない）
         },
-        ocean: {
+        jgsdf: {
+            model: "https://OC135.github.io/test6/JGSDFUH60.glb",
+            texture: "" // 元に戻す用のURL（空なら何もしない）
+        },
+
+        jasdf: {
             model: "https://yamamofly1.github.io/UH60J/UH60J_ocean.glb",
             texture: "https://yamamofly1.github.io/UH60J/UH60Jbody_ocean.png"
         }
@@ -94,8 +99,9 @@
             <h3 style="margin:0 0 10px 0; font-size:14px; text-align:center;">H-60J</h3>
             <button id="toggle-sh60" style="width:100%; padding:10px; margin-bottom:10px; cursor:pointer; background:#444; color:white; border:none;">モデル表示：OFF</button>
             <hr style="border:0.5px solid #555;">
-            <button class="skin-btn" data-skin="standard" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#333; color:white; border:1px solid #555;">JMSDF</button>
-            <button class="skin-btn" data-skin="ocean" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#004466; color:white; border:1px solid #0088cc; font-weight:bold;">JASDF</button>
+            <button class="skin-btn" data-skin="jmsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">JMSDF</button>
+            <button class="skin-btn" data-skin="jgsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#16380b; color:white; border:1px solid #16380b;">JGSDF</button>
+            <button class="skin-btn" data-skin="jasdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#004466; color:white; border:1px solid #0088cc; font-weight:bold;">JASDF</button>
         `;
         document.body.appendChild(panel);
 
