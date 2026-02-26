@@ -11,3 +11,7 @@ SH-60J(JMSDF)
 UH-60J(JGSDF)
 作成者:yamamofly1/AIS1697
 <img width="1093" height="729" alt="スクリーンショット 2026-02-06 165326" src="https://github.com/user-attachments/assets/cbb7b855-d95e-483d-ba0a-41b4c1e09617" />
+
+MH-60M(US.ARMY)
+作成者:AIS1697
+<img width="1100" height="733" alt="スクリーンショット 2026-02-26 235203" src="https://github.com/user-attachments/assets/079285ad-50a7-4897-9854-b07a4f18bd47" />
